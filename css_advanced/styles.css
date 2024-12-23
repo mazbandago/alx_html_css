@@ -1,0 +1,130 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+
+
+nav {
+	display: flex;
+	padding: 10px;
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	color: whitesmoke;
+}
+
+a:hover {
+	color: whitesmoke(191, 177, 203);
+}
+
+li {
+	display: inline;
+	padding: 20px;
+}
+
+.leading {
+	background-image: url("C:\Users\musta\OneDrive\Desktop\images\Object.png");
+	background-repeat: no-repeat;
+	background-color: rgb(90, 46, 131);
+	
+}
+
+.container1 {
+	
+	align-items: center;
+	text-align: center;
+}
+
+.container1 h1 {
+	font-family: Source Sans Pro-serif;
+	font-weight: bold;
+	font-size: 4em;
+	color: whitesmoke ;
+}
+
+span {
+	margin: 0 10px;
+	font-family: Source Sans Pro-seri;
+	font-weight: bold;
+	font-size: 10px;
+	color:whitesmoke ;
+}
+
+button {
+	border-radius: 10px;
+	background-color:rgb(162, 87, 232) ;
+	border: 4px solid rgb(117, 117, 227);
+	color: whitesmoke;
+}
+button:hover {
+	color: rgb(109, 50, 165);
+}
+
+h2 {
+	margin-top: 80px;
+	text-align: center;
+	font-size: 30px;
+	font-family: Source Sans Pro;
+}
+
+.pictures {
+	display: flex;
+	flex-direction: row;
+	justify-items: center;
+	justify-content: space-evenly;
+	margin-top: 20px;
+}
+
+.pictures + div + img {
+	border-radius: 50px;
+	padding: 20px;
+}
+h3 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+p + h3 {
+	font-style: italic;
+	font-size: 20px;
+}
