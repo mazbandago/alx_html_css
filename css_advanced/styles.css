@@ -41,8 +41,7 @@ nav {
 }
 
 .logo {
-	width: 50px;
-	height: 50px;
+	border-radius: 10px;
 }
 
 a {
@@ -61,10 +60,9 @@ li {
 }
 
 .leading {
-	background-image: url("C:\Users\musta\OneDrive\Desktop\images\Object.png");
+	background-image: url("https://i.ibb.co/tsNdLJq/Object.png");
 	background-repeat: no-repeat;
-	background-color: rgb(100, 97, 102);
-	
+
 }
 
 .container1 {
@@ -196,4 +194,8 @@ img{
 .card {
 	display: flex;
 	flex-direction: row;
+}
+
+.dog {
+	margin-bottom: 20px;
 }
