@@ -199,3 +199,24 @@ img{
 .dog {
 	margin-bottom: 20px;
 }
+
+.last {
+	color: black;
+	font-weight: bold;
+	font-size: 2em;
+	margin-bottom: 15px;
+}
+
+.bottom{
+	display: flex;
+	align-items: center;
+	justify-content:space-evenly;
+	margin: 20px 40px;
+}
+
+.writting {
+	font-size: small;
+	margin-bottom: 30px;
+	width: 180px;
+	height: 180px;
+}
