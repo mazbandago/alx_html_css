@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin: 0;
 }
 ol, ul {
 	list-style: none;
@@ -219,4 +220,10 @@ img{
 	margin-bottom: 30px;
 	width: 180px;
 	height: 180px;
+}
+
+.sidewards {
+	display: flex;
+	background-color: rgb(21, 2, 2);
+	padding: 40px;
 }
