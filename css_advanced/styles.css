@@ -175,5 +175,14 @@ img{
 }
  
 .check {
-	flex: 1;
+	padding: 60px;
+	color: black;
+	overflow-x: scroll;
+}
+
+.check img {
+	margin: 10px;
+	height: 60px;
+	width: 60px;
+	border-radius: 50px;
 }
