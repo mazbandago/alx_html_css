@@ -79,10 +79,10 @@ a {
     color: white;
 }
 
-@media only screen and (minmax:480px ){
+@media only screen and (max-width:480px ){
     nav {
         padding: 0;
-        font-size: 0.5em;
+        font-size: 0.7em;
     }
 }
 
@@ -101,7 +101,7 @@ h1 {
     color: #ffffffff;
     font-size: 2em;
     font-weight: bold;
-    margin-top: 80px;
+    margin-top: 250px;
     font-family: source-sans-pr;
 }
 
