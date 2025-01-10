@@ -48,7 +48,11 @@ body {
     max-width: 1000px;
     margin: 1em auto;
     font:  source-sans-pro Arial, Helvetica, sans-serif;
+}
+
+header {
     background-image: url("images/headphones_hero_1.jpg");
+    background-position: center;
     
 }
 
@@ -101,7 +105,7 @@ h1 {
     color: #ffffffff;
     font-size: 2em;
     font-weight: bold;
-    margin-top: 250px;
+    margin-top: 150px;
     font-family: source-sans-pr;
 }
 
@@ -118,7 +122,7 @@ h1 {
     border-radius: 20px;
     padding: 10px;
     margin-top: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     border-color: #FF6565;
 }
 
@@ -128,5 +132,8 @@ button:hover {
     background-color: rgb(152, 190, 237);
 }
 
+.last {
+    margin-bottom: 40px;
+}
 
     
