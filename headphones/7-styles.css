@@ -365,7 +365,6 @@ footer span {
     transition-duration: 2s;
     transition-timing-function:ease-in
     transition: delay 1px;
-
 }
 
 .leading h2:hover {
@@ -402,4 +401,44 @@ footer span {
     animation-fill-mode: none;
     animation-direction: reverse;
 
+}
+
+@media only screen and (min-width:600px){
+    .reduce {
+        display: none; 
+    }
+}
+
+
+
+@media only screen and (max-width:600px){
+    nav a{
+        display: none;
+    }
+
+    .reduce {
+        height: 80px;
+        width: 80px;
+        justify-content: space-between;
+    }
+    .lorem h1 {
+        font-size: 1.5em;
+    }
+    .lorem p {
+        font-size: small;
+        text-align: center;
+    }
+
+    .leading p {
+        text-align: center;
+        font-size: small;
+    }
+    
+   .give a {
+    position: absolute;
+    top: 70px;
+   }
+   footer span {
+    left: 30px;
+   }
 }
