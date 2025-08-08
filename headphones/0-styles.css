@@ -43,7 +43,122 @@ table {
 }
 
 /* my css for the header and banner */
-body {
+
+body{
+    font: source-sans-pro Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.header-img{
+    
+    background-image: url("./images1/headphones_hero_1.jpg");  
+    background-position: center; 
+   
+}
+nav {
+    display: flex;
+    justify-content: center;
+    width: 1000.39px;
+    height: 32px;
+    margin-bottom: 325.24px;
+}
+
+span {
+    width: 161px;
+    height: 32px;
+    margin-left: 120px;
+    margin-top: 14.76px;
+ 
+} 
+span img{
+    width: 114.12px;
+    height: 12.06px;
+}
+
+ ul {
+    margin-left: auto;
+    width: 255px;
+    height: 15px;
+    margin-top: 10px;
+    margin-right: 100px;
+    
+}
+
+li {
+    display: inline-block;
+    padding: 6px
+    
+}
+
+a {
+     text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+} 
+
+a:hover {
+    color:#FF6565 ;
+}
+
+.lorem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lorem h1{
+    align-content: center;
+    width: 578px;
+    height: 40px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffffff;
+}
+
+.lorem .first{
+    align-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffffff;
+    margin-bottom: 40px;
+    width: 355px;
+    height: 20px;
+}
+ .lorem button{
+    width: 162px;
+    height: 44px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffffff;
+    background-color: #FF6565;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 65px;
+}
+.lorem button:hover{
+    color: #000;
+    box-shadow: #FF6565;
+    background-color: rgb(152, 190, 237);
+    transition: all linear ease-in;
+}
+ .last{
+    width: 638px;
+    height: 104px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffffff;
+    margin-bottom: 102px;
+    align-content: center;
+} 
+
+
+
+
+
+
+/* body {
     width: 90%;
     max-width: 1000px;
     margin: 1em auto;
@@ -136,4 +251,6 @@ button:hover {
     margin-bottom: 40px;
 }
 
-    
+     */
+
+
