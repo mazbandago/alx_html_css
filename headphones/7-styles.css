@@ -502,24 +502,11 @@ footer .sp {
   transition: transform 2s ease;
 }
 
-.bondo {
-    animation-name:slide-again ;
-    animation-duration: 2s;
-    animation-iteration-count: 2;
-    animation-timing-function: ease-in;
-    animation-delay: 0;
-    animation-fill-mode: none;
-    animation-direction: reverse;
-
-}
-
 @media only screen and (min-width:600px){
     .reduce {
         display: none; 
     }
 }
-
-
 
 @media only screen and (max-width:600px){
     nav a{
