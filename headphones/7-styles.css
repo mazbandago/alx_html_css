@@ -533,6 +533,7 @@ footer .sp {
     left: 350px;
     top: 200px;
 }
+/* /*  BREAK POINT FOR FOOTER AT 480. */
 
 @media only screen and (max-width:480px) {
     footer {
@@ -605,9 +606,6 @@ a.fa.fa-instagram {
     transition-timing-function:ease-in
      transition: delay 1px;
 } 
-
-
-
 .leading2 div img {
     background: #78e1b0;
     border: 3px solid darkblue;
@@ -660,11 +658,8 @@ a.fa.fa-instagram {
   transition: transform 2s ease;
 }
 
-@media only screen and (min-width:600px){
-    .reduce {
-        display: none; 
-    }
-}
+/* BREAK POINT AT 600PX */
+
 
 @media only screen and (max-width:600px){
     nav a{
@@ -676,7 +671,232 @@ a.fa.fa-instagram {
         width: 80px;
         justify-content: space-between;
     }
-    .lorem h1 {
+    .header-img{
+    background-image: url("./images1/headphones_hero_1.jpg");  
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 768px;
+    height: 800px;
+    }
+    .lorem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 637px;
+    height: 313px;
+    /* margin: 311px auto; */
+}
+
+.lorem h1{
+    align-content: center;
+    width: 578px;
+    height:auto;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffffff;
+}
+
+.lorem .first{
+    align-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffffff;
+    margin-bottom: 40px;
+    width: 355px;
+    height: auto;
+    margin-bottom: 40px;
+}
+ .lorem button{
+    width: 162px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffffff;
+    background-color: #FF6565;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 65px;
+}
+.lorem button:hover{
+    color: #000;
+    box-shadow: #FF6565;
+    background-color: rgb(152, 190, 237);
+    transition: all linear ease-in;
+}
+ .last{
+    width: 520px;
+    height: 150px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffffff;
+    margin-bottom: 102px;
+    text-align: justify;
+} 
+.leading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 194px;
+    /* width: 530px; */
+    margin-top: 100px auto;
+}
+.leading h2{
+    font-size: 25px;
+    font-weight: bold;
+    width: 190px;
+    height: 40;
+    color: #071629;
+    margin-bottom: 40px;
+}
+
+.leading p{
+    font-family: Source Sans Pro;
+    width: 530px;
+    height: 120px;
+    font-size: 12px;
+    color: #071629;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 97px;
+}
+.leading2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 472;
+    height: 469px;
+    align-items: stretch;
+    justify-content: center;
+    margin-bottom: 110px;
+
+}
+.leading2 div img{
+    width: 94.2px;
+    height: 65.36px;
+    margin-bottom: 23px;
+
+}
+.leading2 div h3{
+    width: 200px;
+    height: 28px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 13px;
+}
+.leading2 div p{
+    width: 200px;
+    height: 55px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: justify;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 207px;
+    height: 180px;
+}
+
+.what-we-do {
+    background-image: url("./images1/headphones_hero_2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 876px;
+    width: 600px;
+}
+.leading3{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.leading3 h2{
+    font-size: 30px;
+    font-weight: bold;
+    width: 448px;
+    height: 40px;
+    color: #ffffffff;
+    justify-content: center;
+    margin-top: 141px;
+    margin-bottom: 40px;
+}
+.leading3 p{
+    color: #ffffffff;
+    width: 530px;
+    height: 120px;
+    /* font-size: 12px; */
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 56px;
+}
+
+.pentagon{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: ;
+}
+
+footer {
+    background-color:#071629 ;
+    height: 249px;
+    width: 600px;
+}
+    footer .sp{
+    position: absolute;
+    color: white;
+    left: 50px;
+    top: 200px;
+}
+
+a.fa.fa-facebook {
+    position: absolute;
+    top: 50px;
+    left: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+a.fa.fa-twitter {
+    position: absolute;
+    top: 50px;
+    left: 210px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} 
+a.fa.fa-instagram {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+}
+
+
+
+
+
+
+
+
+
+
+    /* .lorem h1 {
         font-size: 1.5em;
     }
     .lorem p {
@@ -696,4 +916,4 @@ a.fa.fa-instagram {
    /* footer span {
     left: 30px;
    } */
-}
+} */
