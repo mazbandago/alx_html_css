@@ -1,3 +1,4 @@
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,9 +47,14 @@ table {
 
 body{
     font: source-sans-pro Arial, Helvetica, sans-serif;
-    max-width: 1000px;
-    margin: 0 auto;
     overflow-x: hidden;
+    /* max-width: 1000px;
+    margin: 0 auto; */
+}
+ .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 .header-img{
     
@@ -306,10 +312,15 @@ a:hover {
    justify-content: center;
    align-content: center; 
 }
-.posi{
+.posi .move{
     position: absolute;
     bottom: 60px;
-    left: 40px;
+    left: 55px;
+}
+.posi .stay{
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
 }
 /* styling the contact page */
 .conclude {
@@ -360,7 +371,7 @@ input[type=email] {
  footer {
     background-color:#071629 ;
     height: 249px;
-    width: 1000px;
+    width: 100%;
 }
 .give{
     position: relative;
@@ -374,7 +385,7 @@ input[type=email] {
  .move{
     position: absolute;
     top: 90px;
-    left: 700px;
+    left: 900px;
     width: 130px;
     height: 30px;
     display: inline-flex;
