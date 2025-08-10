@@ -46,8 +46,13 @@ table {
 
 body{
     font: source-sans-pro Arial, Helvetica, sans-serif;
-    max-width: 1000px;
-    margin: 0 auto;
+    /* max-width: 1000px;
+    margin: 0 auto; */
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 .header-img{
     
@@ -150,7 +155,7 @@ a:hover {
     line-height: 26px;
     color: #ffffffff;
     margin-bottom: 102px;
-    align-content: center;
+    text-align: center;
 } 
 
 @media screen and (max-width: 480px) {
