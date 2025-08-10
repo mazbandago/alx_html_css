@@ -369,15 +369,7 @@ footer {
     height: 32px;
     top: 100px;
 }
-/* .move{
-    position: absolute;
-     top: 90px;
-    left: 800px;
-    width: 130px;
-    height: 30px;
-    display: inline-flex;
-    justify-content: space-between;
-  }  */
+
  .fa{
     position: relative;
     width: 30px;

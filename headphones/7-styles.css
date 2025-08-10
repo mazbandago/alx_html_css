@@ -43,311 +43,371 @@ table {
 }
 
 /* my css for the header and banner */
-body {
-    width: 90%;
+
+body{
+    font: source-sans-pro Arial, Helvetica, sans-serif;
     max-width: 1000px;
-    margin: 1em auto;
-    font:  source-sans-pro Arial, Helvetica, sans-serif;
+    margin: 0 auto;
 }
-
-header {
-    background-image: url("images/headphones_hero_1.jpg");
-    background-position: center;
+.header-img{
     
+    background-image: url("./images1/headphones_hero_1.jpg");  
+    background-position: center; 
+   
 }
-
 nav {
     display: flex;
     justify-content: center;
+    width: 1000.39px;
+    height: 32px;
+    margin-bottom: 325.24px;
 }
 
 span {
-    font-size: 1em;
-    padding: 15px;
-    color: white;
-    margin-left: 30px;
+    width: 161px;
+    height: 32px;
+    margin-left: 120px;
+    margin-top: 14.76px;
+ 
+} 
+span img{
+    width: 114.12px;
+    height: 12.06px;
 }
 
-ul {
+ ul {
     margin-left: auto;
+    width: 255px;
+    height: 15px;
+    margin-top: 10px;
+    margin-right: 100px;
+    
 }
 
 li {
     display: inline-block;
-    padding: 20px;
+    padding: 6px
+    
 }
 
 a {
-    text-decoration: none;
-    font-size: 1em;
+     text-decoration: none;
     color: white;
-}
-
-@media only screen and (min-width:480px ){
-    nav {
-        padding: 0;
-        font-size: 0.7em;
-    }
-}
+    font-size: 12px;
+    font-weight: bold;
+} 
 
 a:hover {
     color:#FF6565 ;
 }
 
-.lorem {
+.lorem{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
-h1 {
-    color: #ffffffff;
-    font-size: 2em;
+.lorem h1{
+    align-content: center;
+    width: 578px;
+    height: 40px;
+    font-size: 32px;
     font-weight: bold;
-    margin-top: 150px;
-    font-family: source-sans-pr;
-}
-
-.lorem p {
-    font-size: 1.1em;
-    font-family:source-sans-pr;
-    padding: 10px;
     color: #ffffffff;
 }
 
-.lorem button {
-    background-color: #FF6565;
-    color: white;
-    border-radius: 20px;
-    padding: 10px;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    border-color: #FF6565;
+.lorem .first{
+    align-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffffff;
+    margin-bottom: 40px;
+    width: 355px;
+    height: 20px;
 }
-
-button:hover {
+ .lorem button{
+    width: 162px;
+    height: 44px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffffff;
+    background-color: #FF6565;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 65px;
+}
+.lorem button:hover{
     color: #000;
     box-shadow: #FF6565;
     background-color: rgb(152, 190, 237);
+    transition: all linear ease-in;
 }
+ .last{
+    width: 638px;
+    height: 104px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffffff;
+    margin-bottom: 102px;
+    align-content: center;
+} 
 
-.last {
-    margin-bottom: 40px;
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  ul li {
+    display: none;
+  }
+
+
+  .lorem {
+    flex-direction: column;
+  }
+  .lorem h1{
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .lorem .last{
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+  }
 }
-
-/* styling what to do section */
-
-.leading {
+/* CSS FOR THE WHAT WE DO SECTION */
+.leading{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-items: center;
+    height: 184px;
+    margin-top: 100px;
+    margin-bottom: 110px;
 }
-
-.leading h2 {
-    font-size: 2em;
-    margin-top: 60px;
-    margin-bottom: 30px;
-}
-
-.leading p {
-    padding: 10px;
-    margin-bottom: 50pxpx;
-}
-
-.leading2 {
-    display: flex;
-    flex: 1;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 65px;
+.leading h2{
+    font-size: 32px;
+    font-weight: lighter;
+    width: 190px;
+    height: 40;
+    color: #071629;
     margin-bottom: 40px;
 }
 
-.leading2 h3 {
-    padding: 5px;
-    margin-top: 5px;
+.leading p{
+    font-family: Source Sans Pro;
+    width: 637px;
+    height: 104px;
+    font-size: 16px;
+    color: #071629;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 97px;
+}
+.leading2{
+    display: grid;
+    grid-template-columns: repeat(4, 207px);
+    
+    height: 180px;
+    align-items: stretch;
     justify-content: center;
+    margin-bottom: 110px;
+
+}
+.leading2 div img{
+    margin: 0px 56px 24px 56px;
+}
+.leading2 div h3{
+    width: 207px;
+    height: 26px;
+    font-size: 18px;
     font-weight: bold;
-    font-size: 1.2em;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 13px;
+}
+.leading2 div p{
+    width: 207px;
+    height: 52px;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
 }
 
-.leading2 div p {
-    padding: 7px;
-    justify-content: center;
-    margin-top: 5px;
-}
-
-/* styling our results section */
-.what-we-do {
-    background-image: url("images/headphones_hero_2.jpg");
+/* CSS FOR OUR RESULTS SECTION */
+ .what-we-do {
+    background-image: url("./images1/headphones_hero_2.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    
 }
-
-.leading3 {
+.leading3{
     display: flex;
-    align-items: center;
     flex-direction: column;
-}
-
-.penta {
-    display: flex;
-    flex: 1; 
-    justify-content: space-evenly; 
-     align-items: center; 
-     flex-wrap: wrap;
-    
-}
-.penta img {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 20px;
-}
-
-
-.leading3 h2 {
-    font-size: 2em;
-    color: white;
-    margin-top: 55px;
-    margin-bottom: 25px;
-}
-
-.leading3 {
-    color: white;
+    flex: 1;
+    align-items: center;
     justify-content: center;
+}
+.leading3 h2{
+    font-size: 30px;
+    font-weight: bold;
+    width: 448px;
+    height: 40px;
+    color: #ffffffff;
+    justify-content: center;
+    margin-top: 141px;
     margin-bottom: 40px;
 }
-
-.penta h3 {
-   
-    bottom: 20px;
+.leading3 p{
+    color: #ffffffff;
+    width: 637px;
+    height: 104px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 56px;
+}
+.penta{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: relative; 
+   width: 190px;
+   height: 190px;
+   margin-left: 50px;
+   margin-bottom: 79px;
+}
+.container img{
+    width: 190px;
+    height: 190px;
+}
+.posi h3{
+    color: #ffffffff;
+    font-size: 46px;
     font-weight: bold;
-    font-size: 2em;
-    color: white;
+    width: 89px;
+    height: 26px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-content: center;
 }
-
-.penta p {
-    font-size: 0.5em;
-    color: white;
-   
+.posi p{
+    color: #ffffffff;
+   font-size: 14px;
+   font-weight: normal;
+   width: 111px;
+   height: 26px;
+   justify-content: center;
+   align-content: center; 
 }
-
-.container {
-    position: relative;
-}
-
-.move {
+.posi{
     position: absolute;
-    left: 15px;
-    top: 40px;
+    bottom: 60px;
+    left: 40px;
 }
-
-.stay {
-    position: absolute;
-    top: 70px ;
-    left: 15px;
-}
-
 /* styling the contact page */
 .conclude {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    width: 335px;
+    height: 373px;
+    margin: 110px auto;
     align-items: center;
 }
-
 .conclude h2 {
-    font-size: 2em;
+    justify-content: center;
+    font-size: 30px;
     font-weight: bold;
-    padding: 20px;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    color: #071629;
+    width: 146px;
+    height: 40px;
+    padding: 8px;
+    margin-bottom: 56px;
 }
-
 input[type=text] {
-    padding: 1px;
+    width: 335px;
+    height: 29px;
     margin-bottom: 45px;
-    width: 100%;
     border: none;
     border-bottom: 2px solid rgb(230, 219, 219);
 }
-
 input[type=email] {
-    border: none;
-    border-bottom: 2px solid rgb(232, 222, 222);
-    width: 100%;
+    width: 335px;
+    height: 29px;
     margin-bottom: 45px;
+    border: none;
+    border-bottom: 2px solid rgb(230, 219, 219);
 }
-
 .conclude button {
     color: white;
-    border-radius: 30px;
+    border-radius: 32px;
     border: none;
     padding: 10px;
     background-color: #FF6565;
-    margin-bottom: 30px;
+    margin-bottom: 56px;
 }
-
 .conclude button:hover {
     background-color: #000;
-}
+} 
 /* footer styling */
 footer {
-    background-color: rgb(10, 10, 39);
-    height: 120px;
+    background-color:#071629 ;
+    height: 249px;
+    width: 100%;
 }
-
-.fa {
-    padding: 2px;
-    font-size: 20px;
-    width: 15px;
-    text-align: center;
-    text-decoration: none;
-    
-  }
-
-  .fa-facebook {
-    background: white;
-    color: black;
-    border-radius: 40px;
+.give{
+    /* position: relative;  */
+} 
+.give span img{
     position: absolute;
-    top: 28px;
-    right: 200px;
-    
+    width: 161px;
+    height: 32px;
+    top: 100px;
 }
 
-.fa-twitter {
-    background: white;
-    color: black;
-    border-radius: 40px;
-    position: absolute;
-    top: 28px;
-    right: 180px;
-    
-}
-
-.fa-instagram {
-    background: white;
-    color: black;
-    border-radius: 40px;
-    position: absolute;
-    top: 28px;
-    right: 160px;
-    
-}
-
-footer span {
-    color: white;
-    left: 400px;
-    
-    
-}
-
-.give {
+ .fa{
     position: relative;
+    width: 30px;
+    height: 30px;
+    background: rgb(237, 230, 230); 
+    color: rgb(6, 3, 3);
+    border-radius: 20px;
+} 
+
+a.fa.fa-twitter {
+    position: absolute;
+    top: 90px;
+    left: 800px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} 
+a.fa.fa-instagram {
+    position: absolute;
+    top: 90px;
+    left: 840px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+a.fa.fa-facebook {
+    position: absolute;
+    top: 90px;
+    left: 760px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+footer .sp {
+    color: white;
+    left: 350px;
+    top: 200px;
 }
 
 @media only screen and (min-width:350px) {
@@ -357,24 +417,43 @@ footer span {
     }
 }
 
+/*  creating pentagon using HTML and CSS*/
+
+.pentagon {
+  width: 190px;
+  height: 190px;
+  background-color: #FF6565;
+  clip-path: polygon(
+    50% 0%,     /* top */
+    100% 38%,   /* top right */
+    82% 100%,   /* bottom right */
+    18% 100%,   /* bottom left */
+    0% 38%      /* top left */
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+/* ANIMATION FOR SOME SECTIONS */
 .leading h2 {
     background-color: bisque;
     border: 2px solid rgb(215, 26, 26);
-    border-radius: 20px;
+    border-radius: 10px;
     transition-property: transform;
     transition-duration: 2s;
     transition-timing-function:ease-in
-    transition: delay 1px;
-}
+     transition: delay 1px;
+} 
 
-.leading h2:hover {
-    transform: translateY(-10px);
-}
+
 
 .leading2 div img {
     background: #78e1b0;
     border: 3px solid darkblue;
-    height: 100%;
+    height: 80%;
     transition: trasform 3s ease-out 1s ;
 }
 
@@ -390,6 +469,37 @@ footer span {
     to {
         transform: translateX(0);
     }
+} 
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.leading {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.scale {
+  transition: transform 0.3s ease;
+}
+
+.scale:hover {
+  transform: scale(1.1);
+}
+
+
+.pentagon:hover {
+  transform: rotate(10deg);
+  transition: transform 2s ease;
 }
 
 .bondo {

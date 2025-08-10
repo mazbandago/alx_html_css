@@ -7,25 +7,21 @@
     <link rel="stylesheet" type="text/css" href="7-styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-    <header>
+<body> 
+    <div class="contain">
+    <header class="header-img">
         <nav>
-            <span><img src="images/logo_headphones.png" alt="logo"></span>
+            <span><img src="./images1/logo_headphones.png" alt="logo"></span>
             <ul>
                 <li><a href="#what we do">what we do</a></li>
                 <li><a href="#our results">our results</a></li>
                 <li><a href="#contact us">contact us</a></li>
-                
             </ul>
-            
-            <svg class="reduce" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-              </svg>
         </nav>
    
         <div class="lorem">
             <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
-            <p>Lorem ipsum dolor set amet lorem ipsum dolor set</p>
+            <p class="first">Lorem ipsum dolor set amet lorem ipsum dolor set</p>
             <button>CALL TO ACTION</button>
             <p class="last">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br>
              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ecercitation ullamco<br>
@@ -35,15 +31,15 @@
 
     <section class="one">
         <div class="leading">
-         <h2>What we do...</h2>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br>
+         <h2 class="scale">What we do...</h2>
+         <p class="scale">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br>
             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<br>
             laboris nis ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in<br>
             voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </div>
         <div class="leading2">
              <div>
-                <a href="https://imgbb.com/"><img src="https://i.ibb.co/mCvvStP/sound-frecuency.png" alt="sound-frecuency" border="0" /></a>
+                <a href="https://imgbb.com/"><img src="https://i.ibb.co/mCvvStP/sound-frecuency.png" alt="sound-frecuency"border="0"/></a>
                 <h3>Lorem ipsum</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
              </div>
@@ -64,37 +60,59 @@
              </div>
         </div> 
      </section>
-     <section class="what-we-do">
+    
+     <section class="what-we-do" fade-in">
         <div class="leading3">
-            <h2 class="bondo">Our results speak for themselves</h2>
+            <h2>Our results speak for themselves</h2>
             <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<br> laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in<br> voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> 
         </div>
 
         <div class="penta">
              <div class="container">
-                 <img src="images/pentagone.png" alt="pentagon">
-                 <h3 class="move">+2%</h3>
-                 <p class="stay">Lorem ipsum dolor</p>
+                <div class="pentagon scale-hover">
+                    <span class="label"></span>
+                </div>
+                 <!-- <img src="./images1/pentagone.png" alt="pentagon"> -->
+                 <div class="posi">
+                     <h3 class="move">+2%</h3>
+                     <p class="stay">Lorem ipsum dolor</p>
+                 </div>
              </div>
              <div class="container" >
-                 <img src="images/pentagone.png" alt="pentagon" >
-                 <h3 class="move">+2%</h3>
-                 <p class="stay">Lorem ipsum dolor</p>
+                <div class="pentagon scale-hover">
+                    <span class="label"></span>
+                </div>
+                 <!-- <img src="./images1/pentagone.png" alt="pentagon" > -->
+                 <div class="posi">
+                     <h3 class="move">+2%</h3>
+                     <p class="stay">Lorem ipsum dolor</p>
+                 </div>
              </div>
              <div class="container">
-                <img src="images/pentagone.png" alt="pentagon">
-                 <h3 class="move">+2%</h3>
-                 <p class="stay">Lorem ipsum dolor</p>
+                <div class="pentagon scale-hover">
+                    <span class="label"></span>
+                </div>
+                <!-- <img src="./images1/pentagone.png" alt="pentagon"> -->
+                <div class="posi">
+                    <h3 class="move">+2%</h3>
+                    <p class="stay">Lorem ipsum dolor</p>
+                </div>
              </div>
-             <div class="container" >
-                <img src="images/pentagone.png" alt="pentagon">
-                 <h3 class="move">+2%</h3>
-                 <p class="stay">Lorem ipsum dolor</p>
+             <div class="container">
+                <div class="pentagon scale-hover">
+                    <span class="label"></span>
+                </div>
+                <!-- <img src="./images1/pentagone.png" alt="pentagon"> -->
+                <div class="posi">
+                    <h3 class="move">+2%</h3>
+                    <p class="stay">Lorem ipsum dolor</p>
+                </div>
              </div>
         </div>
      </section>
+     <!-- CONTACT SECTION -->
      <section class="conclude">
-        <h2>contact us</h2>
+        <h2>Contact us</h2>
         <form>
             <label for="name">Name</label>
             <input type="text" id="Name"><br>
@@ -104,15 +122,15 @@
             <input type="text" id="Your message"><br>
         </form>
         <button>CALL TO ACTION</button>
-    </section>  
+    </section>    
     <footer style="position:relative;">
     <div class="give">
-        <span><img src="images/logo_headphones.png" alt="logo"></span>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-instagram"></a>
+        <span><img src="./images1/logo_headphones.png" alt="logo"></span>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
     </div>
-    <span style="position: absolute;"><p>©headphones 2020</p></span>
+    <span class="sp" style="position: absolute;"><p>©headphones 2020</p></span>
     </footer>
 </body>
 </html>
