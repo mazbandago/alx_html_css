@@ -367,66 +367,61 @@ input[type=email] {
     background-color: #000;
 } 
 /* footer styling */
-
- footer {
+footer {
     background-color:#071629 ;
     height: 249px;
     width: 100%;
 }
-.give{
-    position: relative;
-}
+
 .give span img{
     position: absolute;
     width: 161px;
     height: 32px;
     top: 100px;
 }
- .move{
-    position: absolute;
-    top: 90px;
-    left: 900px;
-    width: 130px;
-    height: 30px;
-    display: inline-flex;
-    justify-content: space-between;
-  }
-  .fa{
+
+ .fa{
+    position: relative;
     width: 30px;
     height: 30px;
     background: rgb(237, 230, 230); 
     color: rgb(6, 3, 3);
     border-radius: 20px;
-    
-}
+} 
+
 a.fa.fa-twitter {
+    position: absolute;
+    top: 90px;
+    left: 800px;
    display: flex;
    justify-content: center;
    align-items: center;
 } 
-
- a.fa.fa-instagram {
+a.fa.fa-instagram {
+    position: absolute;
+    top: 90px;
+    left: 840px;
     display: flex;
     justify-content: center;
     align-items: center;
 } 
 a.fa.fa-facebook {
+    position: absolute;
+    top: 90px;
+    left: 760px;
     display: flex;
     justify-content: center;
     align-items: center;
 } 
 footer .sp {
-    color: #ffffff;
-    width: 98px;
-    height: 15px;
-    font-size: 12px;
-    top: 195px;
-    left: 300px;
+    color: white;
+    left: 350px;
+    top: 200px;
 }
 
-/* @media only screen and (min-width:350px) {
+@media only screen and (min-width:350px) {
     footer span {
         font-size: smaller;
         padding: 0;
     }
-}  */
+}
